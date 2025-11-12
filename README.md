@@ -1,1 +1,451 @@
-# code-clinic
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Code Clinic - Soporte técnico remoto y reparación profesional de software y hardware en Sucre, Bolivia. Atención rápida, segura y garantizada.">
+    <title>Code Clinic | Soporte y Reparación Técnica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <header class="hero" style="background-image: url('imagenes/soporte.png')">
+        <div class="container">
+            <h1>Code Clinic</h1>
+            <p><strong>Soporte remoto y reparación técnica</strong> — Soluciones rápidas y seguras para tus equipos informáticos.</p>
+            <a href="#contacto" class="cta">Solicitar asistencia</a>
+        </div>
+    </header>
+
+    <!-- Banner promocional full-width -->
+    <section class="promo-banner" style="background-image: url('imagenes/banner.jpg')" aria-label="Promoción">
+        <div class="promo-inner">
+            <div class="promo-content">
+                <h2>Promoción especial: Mantenimiento preventivo</h2>
+                <p>Aprovecha un 20% de descuento en mantenimiento completo para PCs y laptops durante este mes. Servicio rápido, diagnóstico sin costo y piezas originales.</p>
+                <p><a class="cta" href="#contacto">Solicitar ahora</a></p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- Descripción -->
+        <section id="descripcion">
+            <h2>¿Qué es Code Clinic?</h2>
+            <p>En <strong>Code Clinic</strong> ofrecemos asistencia técnica profesional en la reparación de computadoras, laptops y sistemas, tanto a nivel de <strong>software</strong> (virus, sistema operativo, lentitud, reinstalaciones) como de <strong>hardware</strong> (limpieza, cambio de componentes, diagnóstico de fallas). También brindamos <strong>soporte remoto</strong> seguro y confiable, ideal para resolver tus problemas sin salir de casa.</p>
+        </section>
+
+        <!-- Servicios principales -->
+        <section id="servicios">
+            <h2>Servicios Técnicos</h2>
+            <div class="features">
+                <article class="feature">
+                    <img src="imagenes/remoto.png" alt="Soporte remoto" loading="lazy">
+                    <h3>Soporte Remoto</h3>
+                    <p>Conexión segura y encriptada para solucionar problemas de software, configuración o rendimiento. Ideal para asistencia rápida.</p>
+                </article>
+
+                <article class="feature">
+                    <img src="imagenes/soporte.png" alt="Reparación de software" loading="lazy">
+                    <h3>Reparación de Software</h3>
+                    <p>Eliminación de virus, optimización, reinstalación de sistemas, actualización de controladores y recuperación de datos.</p>
+                </article>
+
+                <article class="feature">
+                    <img src="imagenes/9.jpg" alt="Reparación de hardware" loading="lazy">
+                    <h3>Reparación de Hardware</h3>
+                    <p>Diagnóstico físico, cambio de componentes, limpieza interna, mantenimiento preventivo y correctivo.</p>
+                </article>
+
+                <article class="feature">
+                    <img src="imagenes/6.jpg" alt="Diagnóstico gratuito" loading="lazy">
+                    <h3>Diagnóstico Gratuito</h3>
+                    <p>Evaluamos el problema sin costo y te entregamos un presupuesto transparente antes de cualquier intervención.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Propuesta de valor -->
+        <section id="valor">
+            <h2>Por qué elegirnos</h2>
+            <ul>
+                <li>✔ Atención remota y presencial según tus necesidades.</li>
+                <li>✔ Técnicos certificados con experiencia real en reparación y soporte.</li>
+                <li>✔ Diagnóstico gratuito y precios claros.</li>
+                <li>✔ Garantía de 30 días en todas las reparaciones.</li>
+                <li>✔ Atención disponible todos los días, incluso fines de semana.</li>
+            </ul>
+        </section>
+
+        <!-- Marcas que manejamos -->
+        <section id="brands">
+            <h2>Marcas en las que nos especializamos</h2>
+            <p>Trabajamos con equipos y soluciones de las principales marcas del mercado. También ofrecemos soporte certificado y repuestos originales cuando es necesario.</p>
+            <div class="brand-grid">
+                <div class="brand-item"><img src="logos/dell.png" alt="Dell" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/hp.png" alt="HP" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/macOS-Logo.png" alt="Apple" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/lenovo.png" alt="Lenovo" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/asus.png" alt="Asus" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/acer.png" alt="Acer" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/cisco-black-logo-hd-png-701751694708581xqutvctmyl.png" alt="Cisco" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/windows-logo-logok-0.png" alt="Microsoft" class="brand-logo" loading="lazy"></div>
+                <div class="brand-item"><img src="logos/download.jpg" alt="Linux" class="brand-logo" loading="lazy"></div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Galería de imágenes -->
+        <section id="gallery" class="gallery">
+            <h2>Galería</h2>
+            <p>Sube aquí fotos de trabajos, instalaciones o proyectos para mostrar a tus clientes.</p>
+            <div class="gallery-grid">
+                <a href="#" class="gallery-item" data-src="images/gallery/img1.jpg"><img src="imagenes/2.jpg" alt="Trabajo 1" loading="lazy"></a>
+                <a href="#" class="gallery-item" data-src="images/gallery/img2.jpg"><img src="imagenes/5.jpg" alt="Trabajo 2" loading="lazy"></a>
+                <a href="#" class="gallery-item" data-src="images/gallery/img3.jpg"><img src="imagenes/9.jpg" alt="Trabajo 3" loading="lazy"></a>
+                <a href="#" class="gallery-item" data-src="images/gallery/img4.jpg"><img src="imagenes/10.jpg" alt="Trabajo 4" loading="lazy"></a>
+                <a href="#" class="gallery-item" data-src="images/gallery/img5.jpg"><img src="imagenes/8.jpg" alt="Trabajo 5" loading="lazy"></a>
+                <a href="#" class="gallery-item" data-src="images/gallery/img6.jpg"><img src="imagenes/11.jpg" alt="Trabajo 6" loading="lazy"></a>
+            </div>
+
+            <!-- Lightbox -->
+            <div class="lightbox" id="lightbox" aria-hidden="true">
+                <div class="lightbox-content">
+                    <button class="close-btn" id="lbClose" aria-label="Cerrar">×</button>
+                    <button class="nav prev" id="lbPrev" aria-label="Anterior">‹</button>
+                    <img src="" alt="" id="lbImage">
+                    <button class="nav next" id="lbNext" aria-label="Siguiente">›</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planes y precios -->
+        <section id="planes">
+            <h2>Planes de Servicio</h2>
+            <div class="plans">
+                <div class="plan">
+                    <h3>Plan Básico</h3>
+                    <p>Soporte remoto inmediato y diagnóstico gratuito.</p>
+                    <p class="price"><strong>Precio:</strong> 50-100bs.</p>
+                </div>
+                <div class="plan">
+                    <h3>Plan Premium</h3>
+                    <p>Incluye soporte remoto ilimitado y mantenimiento mensual de software.</p>
+                    <p class="price"><strong>Precio:</strong> 100-150bs</p>
+                </div>
+                <div class="plan">
+                    <h3>Plan Empresarial</h3>
+                    <p>Soluciones a medida para oficinas y negocios. Atención prioritaria.</p>
+                    <p class="price"><strong>Precio:</strong> A cotizar</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preguntas frecuentes -->
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="accordion">
+                <div class="item">
+                    <button class="question">¿Cómo funciona el soporte remoto?</button>
+                    <div class="answer">Nuestros técnicos acceden de forma segura a tu equipo mediante herramientas cifradas. Con tu permiso, resolvemos el problema en tiempo real.</div>
+                </div>
+                <div class="item">
+                    <button class="question">¿Qué tipo de equipos reparan?</button>
+                    <div class="answer">Computadoras, laptops y equipos de escritorio de cualquier marca, tanto Windows como Linux o macOS.</div>
+                </div>
+                <div class="item">
+                    <button class="question">¿Ofrecen garantía?</button>
+                    <div class="answer">Sí, todas nuestras reparaciones incluyen garantía de 30 días sobre el servicio realizado.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <h2>Solicita tu asistencia</h2>
+            <form id="contactForm">
+                <label>Nombre
+                    <input type="text" name="name" required>
+                </label>
+                <label>Email
+                    <input type="email" name="email" required>
+                </label>
+                <label>Teléfono (opcional)
+                    <input type="tel" name="phone">
+                </label>
+                <label>Mensaje
+                    <textarea name="message" rows="4" placeholder="Describe tu problema o servicio requerido..." required></textarea>
+                </label>
+                <button type="submit" class="cta">Enviar solicitud</button>
+                <p id="formStatus" aria-live="polite"></p>
+            </form>
+            <p>O contáctanos directamente en:  
+                📧 <a href="contacto@codeclinic.com">codeclinic@gmail.com</a>  
+                📞 <a href="tel:+591 61884256">+591 61884256</a>
+            </p>
+        </section>
+
+        <!-- Técnicos disponibles -->
+        <section id="team-available">
+            <h2>Técnicos disponibles</h2>
+            <p>Conoce a nuestro equipo técnico. Usa el filtro para ver quiénes están disponibles ahora.</p>
+
+            <div class="filter-controls">
+                <button id="showAll" class="filter-btn active">Mostrar todos</button>
+                <button id="showAvailable" class="filter-btn">Sólo disponibles</button>
+            </div>
+
+            <div class="tech-team" id="techTeam">
+                <!-- tarjeta ejemplo: usar images/team/*.jpg -->
+                <article class="team-member" data-available="true" data-email="carlos@codeclinic.example">
+                    <img src="imagenes/yerko.jpg" alt="Yerko Guimer Mancilla Mamani" class="team-photo" loading="lazy">
+                    <h3>Yerko Guimer Mancilla Mamani</h3>
+                    <p class="role">tecnico en hardware</p>
+                    <p class="short">Yerko Guimer Mancilla Mamani, 22 años. Estudiante de Sistemas Informáticos
+Apasionado por la tecnología y el mantenimiento de computadoras. Me especializo en reparación y optimización de laptops con atención en línea las 24 horas.</p>
+                    <p class="certifications">“En sistemas informáticos, cada problema es una oportunidad para crear algo mejor.”</p>
+                    <div class="member-actions">
+                        <span class="avail-badge available">Disponible</span>
+                        <a class="contact-btn" href="mailto:carlos@codeclinic.example?subject=Soporte%20-%20Carlos">Contactar</a>
+                        <button class="more-btn">Ver perfil</button>
+                    </div>
+                    <div class="profile-more" hidden>
+                        <p><strong>Experiencia:</strong> 2 años en reparación de hardware y reemplazo de piezas.</p>
+                        <p><strong>Disponibilidad:</strong> Lunes a sábado, atención remota y visitas a domicilio.</p>
+                    </div>
+                </article>
+
+                <article class="team-member" data-available="true" data-email="maria@codeclinic.example">
+                    <img src="imagenes/pablo.jpg" alt="Pablo Miguel Rejas Torrico" class="team-photo" loading="lazy">
+                    <h3>Pablo Miguel Rejas Torrico</h3>
+                    <p class="role">tecnico en hardware</p>
+                    <p class="short">Pablo Miguel Rejas Torrico, 23 años. Técnico en Sistemas Informáticos
+Apasionado por la tecnología, la programación y la reparación de equipos. Me dedico al soporte técnico y mantenimiento de computadoras, brindando soluciones confiables tanto en línea como de forma presencial.</p>
+                    <p class="certifications"> "Cada problema tiene una solución, solo hay que tener la paciencia y el conocimiento para encontrarla."</p>
+                    <div class="member-actions">
+                        <span class="avail-badge available">Disponible</span>
+                        <a class="contact-btn" href="mailto:maria@codeclinic.example?subject=Soporte%20-%20Mar%C3%ADa">Contactar</a>
+                        <button class="more-btn">Ver perfil</button>
+                    </div>
+                    <div class="profile-more" hidden>
+                        <p><strong>Experiencia:</strong> 2 años en reparación de hardware y reemplazo de piezas.</p>
+                        <p><strong>Disponibilidad:</strong> Atención remota, horario parcial.</p>
+                    </div>
+                </article>
+
+                <article class="team-member" data-available="true" data-email="david@codeclinic.example">
+                    <img src="imagenes/maya.jpg" alt="Ariana Calderon Martinez" class="team-photo" loading="lazy">
+                    <h3>Ariana Calderon Martinez</h3>
+                    <p class="role">Especialista en formateo y recuperacion de datos</p>
+                    <p class="short">Ariana Calderón Gonzales, 20 años. Estudiante de Sistemas Informáticos. Apasionado por la tecnología y el mantenimiento de computadoras. Me especializo en reparación y optimización de laptops con atención en línea las 24 horas.</p>
+                    <p class="certifications">“No solo arreglo fallas, restauro la confianza en tu equipo y en tu trabajo.”</p>
+                    <div class="member-actions">
+                        <span class="avail-badge available">Disponible</span>
+                        <a class="contact-btn" href="mailto:david@codeclinic.example?subject=Soporte%20-%20David">Contactar</a>
+                        <button class="more-btn">Ver perfil</button>
+                    </div>
+                    <div class="profile-more" hidden>
+                        <p><strong>Experiencia:</strong> 2 años en reparación de hardware y reemplazo de piezas.</p>
+                        <p><strong>Disponibilidad:</strong> Mayormente presencial, responde en 24 horas.</p>
+                    </div>
+                </article>
+
+                <article class="team-member" data-available="true" data-email="laura@codeclinic.example">
+                    <img src="imagenes/ana.jpg" alt="Anahi Rios Cazas" class="team-photo" loading="lazy">
+                    <h3>Anahi Rios Cazas</h3>
+                    <p class="role">Especialista en sistemas operativos</p>
+                    <p class="short">Anahí Ríos Cazas| 22 años | Estudiante de Sistemas Informáticos
+Apasionado por la tecnología y el mantenimiento de computadoras. Me especializo en reparación y optimización de laptops con atención en línea las 24 horas.</p>
+                    <p class="certifications"> “Cuido cada equipo como si fuera mío, porque detrás de cada computadora hay un proyecto que no puede detenerse.”</p>
+                    <div class="member-actions">
+                        <span class="avail-badge available">Disponible</span>
+                        <a class="contact-btn" href="mailto:laura@codeclinic.example?subject=Soporte%20-%20Laura">Contactar</a>
+                        <button class="more-btn">Ver perfil</button>
+                    </div>
+                    <div class="profile-more" hidden>
+                        <p><strong>Experiencia:</strong> 2 años en reparación de hardware y reemplazo de piezas.</p>
+                        <p><strong>Disponibilidad:</strong> Consultas y respuesta extendida para cualquier necesidad.</p>
+                    </div>
+                </article>
+
+                <article class="team-member" data-available="true" data-email="pedro@codeclinic.example">
+                    <img src="imagenes/juancho.jpg" alt="Juan Gabriel Sossa Flores" class="team-photo" loading="lazy">
+                    <h3>Juan Gabriel Sossa Flores</h3>
+                    <p class="role">Sistemas Windows</p>
+                    <p class="short">Juan Gabriel Sossa Flores, 21 años, Estudiante de Sistemas Informáticos.
+
+Apasionado por la tecnología y el mantenimiento de computadoras. Me especializo en reparación y optimización de laptops con atención en línea las 24 horas.</p>
+                    <p class="certifications">"Confiabilidad y responsabilidad en el cuidado de tus equipos personales.
+Sabemos que cada computadora es el corazón de tus proyectos, recuerdos y trabajo diario.
+Por eso, en cada servicio brindamos atención personalizada, seguridad y compromiso total con tu tranquilidad digital.”</p>
+                    <div class="member-actions">
+                        <span class="avail-badge available">Disponible</span>
+                        <a class="contact-btn" href="mailto:pedro@codeclinic.example?subject=Soporte%20-%20Pedro">Contactar</a>
+                        <button class="more-btn">Ver perfil</button>
+                    </div>
+                    <div class="profile-more" hidden>
+                        <p><strong>Experiencia:</strong> 2 años en reparación de hardware y reemplazo de piezas.</p>
+                        <p><strong>Disponibilidad:</strong> Soporte tecnico personalizado.</p>
+                    </div>
+                </article>
+
+                <article class="team-member" data-available="true" data-email="ana@codeclinic.example">
+                    <img src="imagenes/brayan.jpg" alt="Milton Brayan Bejarano Nina" class="team-photo" loading="lazy">
+                    <h3>Milton Brayan Bejarano Nina</h3>
+                    <p class="role">tecnico de software</p>
+                    <p class="short">Miltón Brayan Bejarano Nina, 19 años. Estudiante de Sistemas Informáticos
+Apasionado por la tecnología y el mantenimiento de computadoras. Me especializo en reparación y optimización de laptops con atención en línea las 24 horas.</p>
+                    <p class="certifications">“Nuestra misión en sistemas informáticos es convertir procesos complicados en soluciones simples gracias a la tecnología.”</p>
+                    <div class="member-actions">
+                        <span class="avail-badge available">Disponible</span>
+                        <a class="contact-btn" href="mailto:ana@codeclinic.example?subject=Soporte%20-%20Ana">Contactar</a>
+                        <button class="more-btn">Ver perfil</button>
+                    </div>
+                    <div class="profile-more" hidden>
+                        <p><strong>Experiencia:</strong> 2 años en reparación de hardware y reemplazo de piezas.</p>
+                        <p><strong>Disponibilidad:</strong> Respuesta remota rápida, soporte en horas comerciales.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <img src="logos/code.png" alt="Logo Code Clinic" class="footer-logo">
+            <p>© <span id="year">2025</span> Code Clinic — Reparación y soporte técnico en Sucre, Bolivia.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Año dinámico
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Acordeón FAQ
+        (function(){
+            const items = document.querySelectorAll('.accordion .item');
+            items.forEach(item => {
+                const btn = item.querySelector('.question');
+                btn.addEventListener('click', ()=>{
+                    item.classList.toggle('open');
+                });
+            });
+        })();
+
+        // Formulario con mailto
+        (function(){
+            const form = document.getElementById('contactForm');
+            const status = document.getElementById('formStatus');
+            form.addEventListener('submit', (e)=>{
+                e.preventDefault();
+                const data = new FormData(form);
+                const name = data.get('name').trim();
+                const email = data.get('email').trim();
+                const phone = data.get('phone').trim();
+                const message = data.get('message').trim();
+                if(!name || !email || !message){
+                    status.style.color = 'crimson';
+                    status.textContent = 'Por favor completa los campos requeridos.';
+                    return;
+                }
+                const subject = encodeURIComponent('Consulta Code Clinic - ' + name);
+                const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\nTeléfono: ${phone}\n\nMensaje:\n${message}`);
+                window.location.href = `mailto:contacto@codeclinic.example?subject=${subject}&body=${body}`;
+                status.style.color = 'green';
+                status.textContent = 'Mensaje preparado. Revisa tu cliente de correo.';
+                form.reset();
+            });
+        })();
+
+        // Equipo: filtros y expansión de perfiles
+        (function(){
+            const showAllBtn = document.getElementById('showAll');
+            const showAvailableBtn = document.getElementById('showAvailable');
+            const team = document.getElementById('techTeam');
+            if(!team) return;
+            const members = Array.from(team.querySelectorAll('.team-member'));
+
+            function setActiveButton(btn){
+                document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+                if(btn) btn.classList.add('active');
+            }
+
+            if(showAllBtn) showAllBtn.addEventListener('click', ()=>{
+                setActiveButton(showAllBtn);
+                members.forEach(m => m.style.display = '');
+            });
+            if(showAvailableBtn) showAvailableBtn.addEventListener('click', ()=>{
+                setActiveButton(showAvailableBtn);
+                members.forEach(m => {
+                    const avail = m.dataset.available === 'true';
+                    m.style.display = avail ? '' : 'none';
+                });
+            });
+
+            // Delegación para botones "Ver perfil"
+            team.addEventListener('click', (e)=>{
+                const moreBtn = e.target.closest('.more-btn');
+                if(!moreBtn) return;
+                const member = moreBtn.closest('.team-member');
+                const details = member.querySelector('.profile-more');
+                const opened = !details.hasAttribute('hidden');
+                if(opened){
+                    details.hidden = true;
+                    moreBtn.textContent = 'Ver perfil';
+                } else {
+                    details.hidden = false;
+                    moreBtn.textContent = 'Cerrar';
+                }
+            });
+        })();
+
+        // Galería: abrir en lightbox, navegación y teclado
+        (function(){
+            const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+            const lightbox = document.getElementById('lightbox');
+            const lbImage = document.getElementById('lbImage');
+            const lbClose = document.getElementById('lbClose');
+            const lbPrev = document.getElementById('lbPrev');
+            const lbNext = document.getElementById('lbNext');
+            let currentIndex = -1;
+
+            function openLightbox(index){
+                const item = galleryItems[index];
+                if(!item) return;
+                const src = item.dataset.src;
+                lbImage.src = src;
+                lightbox.classList.add('open');
+                lightbox.setAttribute('aria-hidden','false');
+                currentIndex = index;
+            }
+            function closeLightbox(){
+                lightbox.classList.remove('open');
+                lightbox.setAttribute('aria-hidden','true');
+                lbImage.src = '';
+                currentIndex = -1;
+            }
+            function showPrev(){ openLightbox((currentIndex - 1 + galleryItems.length) % galleryItems.length); }
+            function showNext(){ openLightbox((currentIndex + 1) % galleryItems.length); }
+
+            galleryItems.forEach((el, i)=>{
+                el.addEventListener('click', (e)=>{
+                    e.preventDefault();
+                    openLightbox(i);
+                });
+            });
+            lbClose.addEventListener('click', closeLightbox);
+            lbPrev.addEventListener('click', showPrev);
+            lbNext.addEventListener('click', showNext);
+            lightbox.addEventListener('click', (e)=>{ if(e.target === lightbox) closeLightbox(); });
+            document.addEventListener('keydown', (e)=>{
+                if(!lightbox.classList.contains('open')) return;
+                if(e.key === 'Escape') closeLightbox();
+                if(e.key === 'ArrowLeft') showPrev();
+                if(e.key === 'ArrowRight') showNext();
+            });
+        })();
+    </script>
+</body>
+</html>
